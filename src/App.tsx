@@ -1,5 +1,5 @@
 import reactLogo from "./assets/Cross.svg";
-import viteLogo from "/CODED SECRETS (3).svg";
+
 import "./App.css";
 import { useWeb3React } from "@web3-react/core";
 import Card from "./components/Card";
@@ -10,8 +10,8 @@ function App() {
   return (
     <>
       <div>
-        <a href="https://vitejs.dev" target="_blank">
-          <img src={viteLogo} className="logo" alt="Vite logo" />
+        <a href=""target="_blank">
+         
         </a>
         <a href="https://react.dev" target="_blank">
           <img src={reactLogo} className="logo react" alt="React logo" />
