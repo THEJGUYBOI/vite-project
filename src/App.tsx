@@ -11,7 +11,7 @@ function App() {
     <>
       <div>
         <a href=""target="_blank">
-        </a> // we are going to link are token link here
+        </a>
         <a  target="_blank">
           <img src={reactLogo} className="logo react" alt="React logo" />
         </a>
