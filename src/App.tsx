@@ -1,5 +1,5 @@
 import reactLogo from "./assets/Cross.svg";
-import Topbar from "./components/Topbar";
+
 import "./App.css";
 import { useWeb3React } from "@web3-react/core";
 import Card from "./components/Card";
@@ -11,7 +11,6 @@ function App() {
     <>
       <div>
         <a href=""target="_blank">
-         
         </a> // we are going to link are token link here
         <a  target="_blank">
           <img src={reactLogo} className="logo react" alt="React logo" />
@@ -23,7 +22,7 @@ function App() {
         <p style={{ fontSize: "80px", margin: "25px"}}> </p>
       <h1>Faith Chain DAO</h1>
       <div className="card">
-        <Topbar />
+   
         <Card connector={connector} hooks={hooks} name='phantom' />
       </div>
     </div>
