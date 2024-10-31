@@ -13,15 +13,15 @@ function App() {
         <a href=""target="_blank">
          
         </a>
-        <a href="https://react.dev" target="_blank">
+        <a  target="_blank">
           <img src={reactLogo} className="logo react" alt="React logo" />
         </a>
       </div>
-      <h1>Coded Secrets DAO 
+      <h1>Coded Secrets
       </h1>
       <div className="App">
-        <p style={{ fontSize: "80px", margin: "-50px"}}> + </p>
-      <h1>Christian DAO</h1>
+        <p style={{ fontSize: "80px", margin: "25px"}}> </p>
+      <h1>Faith Chain DAO</h1>
       <div className="card">
         <Card connector={connector} hooks={hooks} name='phantom' />
       </div>
