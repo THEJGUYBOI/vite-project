@@ -63,7 +63,7 @@ button:focus-visible {
   color: white;
   text-align: center;
   border: 5px solid #000000;
-  padding: 20px;
+  padding: 9px;
   border-radius: 9px;
   border-top-right-radius: 45px;
 }
