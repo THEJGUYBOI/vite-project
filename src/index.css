@@ -54,6 +54,20 @@ button:focus-visible {
   outline: 4px auto -webkit-focus-ring-color;
 }
 
+.App {
+  display: flex;
+  flex-direction: column; /* Align content vertically */
+  align-items: center;
+  justify-content: center;
+  background: linear-gradient(135deg, #5a5a5a, #2e2e2e);
+  color: white;
+  text-align: center;
+  border: 5px solid #000000;
+  padding: 20px;
+  border-radius: 9px;
+  border-top-right-radius: 45px;
+}
+
 @media (prefers-color-scheme: black) {
   :root {
     color: #213547;
@@ -66,3 +80,4 @@ button:focus-visible {
     background-color: #f9f9f9;
   }
 }
+

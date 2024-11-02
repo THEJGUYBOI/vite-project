@@ -9,6 +9,7 @@ function App() {
  // we are going to link are token link here
   return (
     <>
+
       <div>
         <a href=""target="_blank">
         </a>
@@ -16,13 +17,11 @@ function App() {
           <img src={reactLogo} className="logo react" alt="React logo" />
         </a>
       </div>
-      <h1>Coded Secrets
-      </h1>
+      <h1>Coded Secrets</h1>
       <div className="App">
         <p style={{ fontSize: "80px", margin: "25px"}}> </p>
-      <h1>Faith Chain DAO</h1>
+      <h1>Glory Transactions</h1>
       <div className="card">
-   
         <Card connector={connector} hooks={hooks} name='phantom' />
       </div>
     </div>
