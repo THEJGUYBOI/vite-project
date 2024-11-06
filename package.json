@@ -10,9 +10,13 @@
     "preview": "vite preview"
   },
   "dependencies": {
+    "@clerk/clerk-react": "^5.15.1",
+    "@clerk/clerk-sdk-node": "^5.0.60",
     "@web3-react/core": "^8.2.3",
     "@web3-react/types": "^8.2.3",
+    "axios": "^1.7.7",
     "eventemitter3": "^5.0.1",
+    "express": "^4.21.1",
     "react": "^18.3.1",
     "react-dom": "^18.3.1",
     "web3-react-phantom": "^1.0.4"
